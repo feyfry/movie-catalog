@@ -26,7 +26,7 @@ cd movie-catalog
 ### 2. Setup Backend
 ```bash
 # Masuk ke direktori backend
-cd backend
+cd backend/
 
 # Buat virtual environment
 python -m venv venv
@@ -66,7 +66,7 @@ JWT_SECRET_KEY bisa diganti dengan nilai random lain untuk keamanan, Anda bisa g
 ### 5. Setup Frontend
 ```bash
 # Masuk ke direktori frontend
-cd ../frontend
+cd frontend/
 
 # Install dependencies
 npm install
