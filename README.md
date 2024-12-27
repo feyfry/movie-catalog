@@ -160,5 +160,4 @@ movie_catalog/
 Silakan buka issue jika menemukan bug atau ingin request fitur baru.
 
 # License
-MIT License - silakan lihat file LICENSE untuk detail lebih lanjut.
-   
+MIT License
