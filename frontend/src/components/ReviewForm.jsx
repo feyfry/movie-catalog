@@ -26,13 +26,11 @@ const ReviewForm = ({ movieId, onReviewAdded }) => {
             toast.success('Review added successfully');
             setFormData({ rating: 5, comment: '' });
 
-            // Tambahkan timeout sebelum memanggil onReviewAdded
             setTimeout(() => {
                 if (onReviewAdded) onReviewAdded();
             }, 500);
 
         } catch (error) {
-            // Tambahkan pengecekan error yang lebih spesifik
             if (error.response?.status === 400 && error.response?.data?.error === 'You have already reviewed this movie') {
                 toast.error('You have already reviewed this movie');
             } else {
