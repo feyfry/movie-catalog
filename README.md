@@ -34,7 +34,7 @@ python -m venv venv
 # Aktifkan virtual environment
 # Windows
 venv\Scripts\activate
-atau jika menggunakan gitbash, ketikkan perintah:
+# atau jika menggunakan gitbash, ketikkan perintah:
 source venv/Scripts/activate
 
 # Linux/Mac
