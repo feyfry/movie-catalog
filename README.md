@@ -19,7 +19,7 @@ Sebelum menginstall aplikasi ini, pastikan sistem anda telah memiliki:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/movie-catalog.git
+[git clone https://github.com/feyfry/movie-catalog.git](https://github.com/feyfry/movie-catalog.git)
 cd movie-catalog
 ```
 
