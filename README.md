@@ -51,12 +51,13 @@ Import file SQL yang disediakan dalam folder "database" ke database local Anda.
 
 ### 4. Konfigurasi Environment
 Buat file .env di folder backend/ dengan isi:
-```bash
+```env
 FLASK_APP=app.py
 FLASK_DEBUG=True
 DATABASE_URL=mysql+pymysql://username:password@localhost/movie_catalog
 JWT_SECRET_KEY=3d6f45a5fc12445dbac2f59c3b6c7cb1
-
+```
+```bash
 Catatan:
 Ganti username dan password sesuai dengan kredensial MySQL Anda, jika passwordnya kosong, cukup kosongkan saja sebelum simbol @
 JWT_SECRET_KEY bisa diganti dengan nilai random lain untuk keamanan, Anda bisa gunakan key tersebut jika mau.
