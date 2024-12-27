@@ -70,9 +70,6 @@ cd frontend/
 
 # Install dependencies
 npm install
-
-# Build aplikasi
-npm run build
 ```
 
 # Menjalankan Aplikasi
