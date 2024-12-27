@@ -9,7 +9,7 @@ const MovieDetail = () => {
     const { id } = useParams();
     const [movie, setMovie] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [refreshKey, setRefreshKey] = useState(0); // Tambahkan state untuk memaksa refresh
+    const [refreshKey, setRefreshKey] = useState(0);
 
     const fetchMovie = async () => {
         try {
